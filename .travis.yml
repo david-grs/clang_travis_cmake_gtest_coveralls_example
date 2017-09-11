@@ -15,7 +15,7 @@ before_install:
   - pip install --user cpp-coveralls
 
 script:
-  - CXX=/usr/bin/clang++-6 CC=/usr/bin/clang-6 cmake -DCOVERAGE=1 .
+  - CXX=/usr/bin/clang++-5.0 CC=/usr/bin/clang-5.0 cmake -DCOVERAGE=1 .
   - cmake --build . 
   - ./tests
 
