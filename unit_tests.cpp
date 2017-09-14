@@ -1,8 +1,8 @@
-#include <gtest/gtest.h>
+#include "project.h"
 
-#include <iostream>
+#include <gtest/gtest.h>
 
 TEST(test, empty)
 {
-  std::cout << "hello world" << std::endl;
+  Project::Foo();
 }
