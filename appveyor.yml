@@ -14,7 +14,6 @@ install:
 
 before_build:
     - cmake -G "Visual Studio 15 2017 Win64" .
-    - dir
 
 build:
   project: $(APPVEYOR_BUILD_FOLDER)\$(APPVEYOR_PROJECT_NAME).sln
