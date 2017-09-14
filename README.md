@@ -2,5 +2,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/3t33817ljdsgvbx0/branch/master?svg=true)](https://ci.appveyor.com/project/david-grs/clang-travis-cmake-gtest-coverage-example/branch/master)
 [![Coverage Status](https://coveralls.io/repos/github/david-grs/clang-travis-cmake-gtest-coverage-example/badge.svg?branch=master)](https://coveralls.io/github/david-grs/clang-travis-cmake-gtest-coverage-example?branch=master)
 
-Demo project using Google Test, deployed to Travis CI, Coveralls and Appveyor.
+Demo project using GTest, Travis CI, Coveralls and Appveyor.
 
