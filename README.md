@@ -3,4 +3,3 @@
 [![Coverage Status](https://coveralls.io/repos/github/david-grs/clang-travis-cmake-gtest-coverage-example/badge.svg?branch=master)](https://coveralls.io/github/david-grs/clang-travis-cmake-gtest-coverage-example?branch=master)
 
 Demo project using GTest, Travis CI, Coveralls and Appveyor.
-
