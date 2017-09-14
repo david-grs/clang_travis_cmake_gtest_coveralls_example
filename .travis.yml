@@ -16,8 +16,9 @@ before_install:
 
 script:
   - CXX=/usr/bin/clang++-5.0 CC=/usr/bin/clang-5.0 cmake -DCOVERAGE=1 .
-  - cmake --build . 
+  - VERBOSE=1 cmake --build . 
   - ./tests
+  - ls -al
 
 after_success:
   - coveralls --root . -E ".*gtest.*" -E ".*CMakeFiles.*" 
